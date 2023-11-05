@@ -13,7 +13,7 @@ computer. It is ideal to measure **temperature** to less than 0.1 &deg; C accura
 
 The A/D converter is the Linear Technologies [LTC2473](https://www.analog.com/en/products/ltc2473.html).
 
-![alt text](https://www.analog.com/-/media/analog/en/products/image/typical-application-diagrams/ltc/ltc2471-8586.png?imgver=1&h=270)
+<img src="https://www.analog.com/-/media/analog/en/products/image/typical-application-diagrams/ltc/ltc2471-8586.png" alt="drawing" width="270"/>
 
 The LTC2473 is a small, **16-bit** analog-to-digital converter with an
 integrated precision reference and a selectable **208sps** or **833sps** output
