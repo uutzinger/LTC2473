@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LTC2473	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+available	KEYWORD2
+read KEYWORD2
+regularspeed	KEYWORD2
+highspeed	KEYWORD2
+sleep	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LTC2473_ADDRESS_GND	LITERAL1
+LTC2473_ADDRESS_VDD	LITERAL1
+LTC2473_SPS_208	LITERAL1
+LTC2473_SPS_833	LITERAL1
+LTC2473_SLEEP 	LITERAL1
+LTC2471_VREF	LITERAL1
