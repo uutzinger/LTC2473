@@ -13,7 +13,7 @@ computer. It is ideal to measure **temperature** to less than 0.1 &deg; C accura
 
 The A/D converter is the Linear Technologies [LTC2473](https://www.analog.com/en/products/ltc2473.html).
 
-![drawing](./LTC2471-8586.png)
+<img src="./LTC2471-8586.png" alt="drawing" width="250"/>
 
 The LTC2473 is a small, **16-bit** analog-to-digital converter with an
 integrated precision reference and a selectable **208sps** or **833sps** output
@@ -45,8 +45,7 @@ If you modify the board (hardware folder) and send it for manufacturing I sugges
 
 Although the LTC2473 is listed for $3 in bulk, for small quantities, it is much more expensive and LCSC does not have it in stock.
 
-<img src="./hardware/LTC2473CDR1_top.png" alt="drawing" width="300"/>
-<img src="./hardware/LTC2473CDR1_bottom.png" alt="drawing" width="300"/>
+<img src="./hardware/LTC2473CDR1_top.png" alt="drawing" width="300"/> <img src="./hardware/LTC2473CDR1_bottom.png" alt="drawing" width="300"/>
 
 ## Software
 
