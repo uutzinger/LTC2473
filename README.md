@@ -50,7 +50,7 @@ Although the LTC2473 is listed for $3 in bulk, for small quantities, it is much 
 
 ## Software
 
-A custom Arduino Library was created and has been tested with an ESP32-S3. [Linduino](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-development-platforms/linduino.html) was used for reference. Correct register settings and transfer parameters were implemented (The Linduino driver for LTC2473 is likely not working). The software demonstrates that it read 833 samples per second on two converters simultaneously.
+A custom Arduino Library was created and has been tested with an ESP32-S3. [Linduino](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-development-platforms/linduino.html) was used for reference. Correct register settings and transfer parameters were implemented (The Linduino driver for LTC2473 is likely not working). The software demonstrates that it reads 833 samples per second on two converters simultaneously.
 
 This library supports the following functions:
 ```
