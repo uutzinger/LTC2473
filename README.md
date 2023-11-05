@@ -11,7 +11,7 @@ computer. It is ideal to measure **temperature** to less than 0.1 &deg; C accura
 
 ## Hardware
 
-The A/D converter is the Linear Technologies [LTC2473](https://www.analog.com/en/products/ltc2473.html).
+The A/D converter is the Linear Technology [LTC2473](https://www.analog.com/en/products/ltc2473.html).
 
 <img src="./LTC2471-8586.png" alt="drawing" width="300"/>
 
@@ -50,7 +50,7 @@ Although the LTC2473 is listed for $3 in bulk, for small quantities, it is much 
 
 ## Software
 
-A custom Arduino Library was created and has been tested with an ESP32-S3. [Linduino](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-development-platforms/linduino.html) was used for reference. Correct register settings and transfer parameters were implemented. It can read 833 samples per second on two converters simultaneously.
+A custom Arduino Library was created and has been tested with an ESP32-S3. [Linduino](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-development-platforms/linduino.html) was used for reference. Correct register settings and transfer parameters were implemented (The Linduino driver for LTC2473 is likely not working). The software demonstrates that it read 833 samples per second on two converters simultaneously.
 
 This library supports the following functions:
 ```
@@ -94,6 +94,6 @@ void loop() {
 }
 ```
 
-More advanced example programs are included in the examples, including routines to convert readings to temperature.
+More advanced example programs are included. Some convert readings to temperature.
 
 Urs Utzinger, 2023
