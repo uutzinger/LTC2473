@@ -15,7 +15,7 @@ The A/D converter is the Linear Technologies [LTC2473](https://www.analog.com/en
 
 <img src="./LTC2471-8586.png" alt="drawing" width="300"/>
 
-The LTC2473 is a small, **16-bit** analog-to-digital converter with an
+"The LTC2473 is a small, **16-bit** analog-to-digital converter with an
 integrated precision reference and a selectable **208sps** or **833sps** output
 rate. It uses a single 2.7V to 5.5V supply and communicates through an I2C
 Interface at 100 or 400 kbit/sec. 
@@ -24,7 +24,7 @@ The ADC includes a 1.25V integrated reference with 2ppm/C drift performance
 and 0.1% initial accuracy. It includes an integrated oscillator and performs
 conversions with no latency for multiplexed applications. 
 The LTC2473 includes a proprietary input sampling scheme that reduces 
-the average input current several orders of magnitude when put in sleep mopde 0.2microA.
+the average input current several orders of magnitude when put in sleep mopde 0.2microA." (Linear Technology)
 
 A dual channel board was designed with Eagle CAD and fabricated by [JLPCP](https://jlcpcb.com/). Parts were sourced from:
 
