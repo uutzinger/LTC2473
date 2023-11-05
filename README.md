@@ -24,7 +24,8 @@ The ADC includes a 1.25V integrated reference with 2ppm/C drift performance
 and 0.1% initial accuracy. It includes an integrated oscillator and performs
 conversions with no latency for multiplexed applications. 
 The LTC2473 includes a proprietary input sampling scheme that reduces 
-the average input current several orders of magnitude when put in sleep mopde 0.2microA." (Linear Technology)
+the average input current several orders of magnitude. 
+When put in sleep mopde it consumes 0.2microA." (Linear Technology)
 
 A dual channel board was designed with Eagle CAD and fabricated by [JLPCP](https://jlcpcb.com/). Parts were sourced from:
 
